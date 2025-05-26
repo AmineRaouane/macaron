@@ -385,7 +385,7 @@ class DetectMaliciousMetadataCheck(BaseCheck):
 
     % Package released with excessive whitespace in the code .
     {Confidence.HIGH.value}::trigger(malware_high_confidence_4) :-
-        quickUndetailed, forceSetup, failed({Heuristics.WHITE_SPACES.value}).
+        forceSetup, failed({Heuristics.WHITE_SPACES.value}).
 
     % Package released recently with little detail, with multiple releases as a trust marker, but frequent and with
     % the same code.
