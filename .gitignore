@@ -181,12 +181,4 @@ docs/_build
 bin/
 requirements.txt
 .macaron_env_file
-<<<<<<< HEAD
-<<<<<<< HEAD
-.DS_Store
-=======
 **/.DS_Store
->>>>>>> 1c65d5f (feat(security): add package name typosquatting detection (#1059))
-=======
-.DS_Store
->>>>>>> caddb2a (chore: add config variable to defaults.ini and minor cleanup)
